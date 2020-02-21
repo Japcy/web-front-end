@@ -1,132 +1,3 @@
----
- 学习目标:
-
-  - 了解常用浏览器
-  - 掌握WEB标准
-  - 理解标签语义化
-  - 掌握常用的排版标签
-  - 掌握常用的文本格式化图像链接等标签
-  - 掌握三种列表标签
-  - 掌握表格标签
-  - 掌握表格标签
-  - 掌握表单标签
-typora-copy-images-to: media
----
-
-# 自我介绍
-
-传智讲师   刘晓强     江湖人称  强哥  
-
-但是不是
-
-<img src="media/qq.jpg" />
-
-
-
-也不是：
-
-<img src="media/lk.jpg" />
-
-其实这是我：
-
-
-
-<img src="media/gt.jpg" />
-
-
-
-
-
-前端基础  html +css    基础班        html 2 +css  7天    9 天 传统布局    +  3天 html 5 +css3 基础
-
-就业班   js     移动web       php + 项目  15      node      vue     框架  微信 ...  大前端    
-
-# HTML 第一天目标
-
-能够写出基本的页面（里面包含图片、各种标签和链接）
-
-# 开发工具
-
-我们主要用的 开发工具有   chrome  、  sublime 、  photoshop
-
-## 浏览器（显示） 
-
-```
-浏览器是网页显示、运行的平台，常用的浏览器有IE、火狐（Firefox）、谷歌（Chrome）、Safari和Opera等。我们平时称为五大浏览器。
-```
-
-<img src="media/b.png" />
-
-### 查看浏览器占有的市场份额（知晓）
-
-查看网站： <a href="http://tongji.baidu.com/data/browser" target="_blank">http://tongji.baidu.com/data/browser</a>
-
-<img src="media/count.png" />
-
-
-
-
-
- 这些工具你认识几个？
-
-## sublime（书写）
-
- <img src="media/s.png" />
-
-  普通青年    Dreamweaver
-
-  文艺青年    sublime
-
-  高手和傻子  用记事本
-
-  其实。。。。
-
-
-
-
-
-
-
-
-
-
-
-  <img src="media/node.png" />
-
-
-
-## Photoshop(协助)
-
-![1498465020015](media/1498465020015.png)
-
-PS 工具是我们使用频率比较高的软件之一， 我们学习PS目的不是为了设计海报做电商和UI的，而是要求：
-
-1. **熟练的切图**
-2. 能和网站美工美眉有共同话题。。。。。
-
-# 认识网页
-
-```
-网页主要由文字、图像和超链接等元素构成。当然，除了这些元素，网页中还可以包含音频、视频以及Flash等。
-```
-
-<img src="media/mi.png"alt="">
-
-```
-思考：  网页是如何形成的呢?
-```
-
-<img src="media/web.png" />
-
-# 常见浏览器内核介绍
-
-```
-浏览器是网页运行的平台，常用的浏览器有IE、火狐（Firefox）、谷歌（Chrome）、Safari和Opera等。我们平时称为五大浏览器。
-```
-
-<img src="media/b.png" />
-
-
 
 ## 浏览器内核（理解）             
 
@@ -287,8 +158,6 @@ HTML（英文Hyper Text Markup Language的缩写）中文译为“超文本标�
 
 日常生活的书信，我们要遵循共同的约定。 
 
-<img src="media/mess.png" alt="">
-
 同理：HTML 有自己的语言语法骨架格式：
 
 ```html
@@ -330,14 +199,6 @@ body 元素包含文档的所有内容（比如文本、超链接、图像、表
 
 
 
-为了便于记忆，我们请出刚才要辞职回家养猪的二师兄来帮忙， 我称之为  猪八戒记忆法
-
-<img src="media/pig.png" />
-
-
-
-
-
 ## HTML标签分类
 
   在HTML页面中，带有“< >”符号的元素被称为HTML标签，如上面提到的 &lt;HTML&gt;、&lt;head&gt;、&lt;body&gt;都是HTML骨架结构标签。所谓标签就是放在“< >” 标签符中表示某个功能的编码命令，也称为HTML标签或 HTML元素
@@ -376,7 +237,6 @@ body 元素包含文档的所有内容（比如文本、超链接、图像、表
 <head>  <title> </title>  </head>
 ```
 
-<img src="media/father.jpg">
 
 2.并列关系
 
@@ -385,50 +245,9 @@ body 元素包含文档的所有内容（比如文本、超链接、图像、表
 <body></body>
 ```
 
-<img src="media/xiong.jpg">
 
 倡议： 如果两个标签之间的关系是嵌套关系，子元素最好缩进一个tab键的身位。如果是并列关系，最好上下对齐。
 
-## 课堂一练
-
-
-
-```
-请问下列哪个标签是错误的？
-```
-
-```
-A  <head></head><body></body>
-```
-
-```
-B  <strong><div></div></strong>
-```
-
-```
-C  <head><title></head></title>
-```
-
-```
-D  <body><div></div></body>
-```
-
-
-
- 
-
-
-
-  <a href="key.HTML" target="_blank">sublime 一些常用快捷键  点我查看 </a>
-
-
-
-~~~
-再页面中输入 以下2个单词
-1.  html: 5   
-2.  !
-   在sublime里面然后按下tab键盘即可生成HTML骨架
-~~~
 
 
 
@@ -499,9 +318,7 @@ UTF-8则包含全世界所有国家需要用到的字符
 
  单词缩写：  head   头部. 标题     title  文档标题
 
-为了使网页更具有语义化，我们经常会在页面中用到标题标签，HTML提供了6个等级的标题，即
-
- <h1>、<h2>、<h3>、<h4>、<h5>和<h6>
+为了使网页更具有语义化，我们经常会在页面中用到标题标签，HTML提供了6个等级的标题。
 
 ~~~
 标题标签语义：  作为标题使用，并且依据重要性递减
@@ -516,18 +333,6 @@ UTF-8则包含全世界所有国家需要用到的字符
 
 
 > 注意：  h1 标签因为重要，尽量少用，不要动不动就向你扔了一个h1。 一般h1 都是给logo使用，或者页面中最重要标题信息。
-
-  <img src="media/dog.gif" />
-
-```
-    传智播客学前端，
-　　前端学院四十班。
-　　新班强哥讲台站，
-　　又带新颜技术钻。
-　　标题一共六级选，
-　　具体效果刷新见。
-　　        ------强哥
-```
 
 
 
@@ -756,38 +561,6 @@ base 写到  <head>  </head>  之间
 
  <img src="media/base.png" />
 
-## 课堂一练
-
- 1在HTML中，关于a标签说法不正确的是（）
-
-(A) a标签可以通过href属性跳转到另外一个页面
-
-(B) a标签可以通过targer属性设置在是否在新窗口中打开
-
-(C) a标签只能在当前页面设置锚点链接，让用户能够快速定位到目标内
-
-(D) a标签可以通过href="#"设置一个空链接
-
-2如果想跳转到当前页面里名为show的锚点，下列写法是正确的
-
-A  < a href=".show">跳转</a>
-
-B < a href="#show">跳转</a>
-
-C < a href=" show">跳转</a>
-
-D < a src=" #show">跳转</a>
-
- 
-
-3如果想跳转到同目录下的名为success.html文件里名为show的锚点，下列写法是正确的
-
-(A) < a href="success.html#show">跳转</a>
-
-(B)  < a href="#show">跳转</a> 
-
-(C)  < a href="success#show">跳转</a>
-(D) < a src="success.html#show">跳转</a>
 
 ##  特殊字符标签 （理解）
 
@@ -810,7 +583,7 @@ D < a src=" #show">跳转</a>
 
 <img src="media/zs.png" />
 
-# 路径(重点、难点)
+# 路径
 
 <img src="media/dt.png" width="400" />
 
@@ -846,63 +619,9 @@ D < a src=" #show">跳转</a>
 
 
 
-## 课堂一练
-
-1.**在下面结构中，哪种写法可以在index页面中有输出img.gif**
-
-![1512226080266](media/1512226080266.png)
-
-(A) <img src=”../image/img.gif” /> 		
-
-(B) <img src=”image/img.gif” /> 
-
-(C) <img src=”image../img.gif” />	
-
-(D) <img src=”img.gif/image” />
-
- 
-
-**2在下面结构中，哪种写法可以在index页面中有输出1.jpg**
-
-![1512226099480](media/1512226099480.png)
-
-(A) <img src=”../1/2/1.jpg” />		
-
-(B) <img src=”/1/2/1.jpg” />
-
-(C) <img src=”1/2/1.jpg” />	
-
-(D) <img src=”1.jpg” />
-
- 
-
-3在下面结构中哪种写法可以在index页面中有输出img.gif
-
-![1512226121609](media/1512226121609.png)
-
-(A) <img src=”demo/image/img.gif” /> 	
-
-(B) <img src=”image/img.gif” /> 
-
-(C) <img src=”image../img.gif” />	
-
-(D) <img src=”img.gif/image/demo” />
-
  
 
 # 总结
-
-  每一天都有一个主题 我们HTML第一天的主题就是 <认识标签>
-
-学HTML 之前 觉得 很神秘  
-
-<img src="media/z.png" />
-
-等你学完之后忽然发现
-
-<img src="media/rh.jpg" width="615" />
-
-
 
 总结今天的思路贯穿线：
 
@@ -911,8 +630,6 @@ D < a src=" #show">跳转</a>
 # 列表标签
 
 什么是列表？
-
-<img src="media/list.png" />
 
 把…制成表,以表显示
 
@@ -982,14 +699,6 @@ D < a src=" #show">跳转</a>
   ...
 </dl>
 ```
-
- <img src="media/2.jpg" /> 
-
-
-
-用的还可以：
-
-<img src="media/mix.png" />
 
 
 
