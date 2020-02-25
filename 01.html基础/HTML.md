@@ -86,17 +86,6 @@ iOS以及WP7平台上，由于系统原因，系统大部分自带浏览器内�
 
 <img src="media/gx.png" />
 
-总结WEB标准：
-
-结构标准：   <img src="media/hb1.png" />  决定你是否有个好天然身体 
-
-
-
-表现标准：   <img src="media/hb2.png" />  决定你是否打扮的美丽外观
-
-
-
-行为标准：   <img src="media/hb3.jpg"  width="420"   />  决定你是否有吸引人的行为
 
 
 
