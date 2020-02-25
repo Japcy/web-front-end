@@ -1,5 +1,4 @@
 ###今日目标
-
 1.能够了解模块化的相关规范 
 2.了解webpack
 3.了解使用Vue单文件组件
@@ -8,9 +7,7 @@
 
 
 ###1.模块化的分类
-
 ####A.浏览器端的模块化
-
         1).AMD(Asynchronous Module Definition,异步模块定义)
         代表产品为：Require.js
         2).CMD(Common Module Definition,通用模块定义)
