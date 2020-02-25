@@ -1,4 +1,4 @@
-###今日目标
+### 今日目标
 1.能够说出什么是路由 
 2.能够说出前端路由的实现原理
 3.能够使用Vue-Router实现前端路由
@@ -8,7 +8,7 @@
 
 
 
-###1.路由的概念
+### 1.路由的概念
 路由的本质就是一种对应关系，比如说我们在url地址中输入我们要访问的url地址之后，浏览器要去请求这个url地址对应的资源。
 那么url地址和真实的资源之间就有一种对应的关系，就是路由。
 
@@ -20,7 +20,7 @@
 前端路由的基本概念：根据不同的事件来显示不同的页面内容，即事件与事件处理函数之间的对应关系
 前端路由主要做的事情就是监听事件并分发执行事件处理函数
 
-###2.前端路由的初体验
+### 2.前端路由的初体验
 前端路由是基于hash值的变化进行实现的（比如点击页面中的菜单或者按钮改变URL的hash值，根据hash值的变化来控制组件的切换）
 核心实现依靠一个事件，即监听hash值变化的事件
 ```
@@ -165,7 +165,7 @@ window.onhashchange = function() {
 }
 ```
 
-###3.Vue Router简介
+### 3.Vue Router简介
 它是一个Vue.js官方提供的路由管理器。是一个功能更加强大的前端路由器，推荐使用。
 Vue Router和Vue.js非常契合，可以一起方便的实现SPA(single page web application,单页应用程序)应用程序的开发。
 Vue Router依赖于Vue，所以需要先引入Vue，再引入Vue Router
@@ -181,7 +181,7 @@ Vue Router的特性：
 支持路由懒加载
 支持路由滚动行为
 
-###4.Vue Router的使用步骤(★★★)
+### 4.Vue Router的使用步骤(★★★)
 A.导入js文件
 <script src="lib/vue_2.5.22.js"></script>
 <script src="lib/vue-router_3.0.2.js"></script>
@@ -233,8 +233,8 @@ var myRouter = new VueRouter({
     ]
 })
 
-###5.嵌套路由，动态路由的实现方式
-####A.嵌套路由的概念(★★★)
+### 5.嵌套路由，动态路由的实现方式
+#### A.嵌套路由的概念(★★★)
 当我们进行路由的时候显示的组件中还有新的子级路由链接以及内容。
 
 嵌套路由最关键的代码在于理解子级路由的概念：
@@ -288,7 +288,7 @@ var User = { template: "<div>This is User</div>" }
 
 ![](images/03嵌套路由.png)
 
-####B.动态路由匹配(★★★)
+#### B.动态路由匹配(★★★)
 
 var User = { template:"<div>用户：{{$route.params.id}}</div>"}
 
@@ -359,8 +359,8 @@ var myRouter = new VueRouter({
 })
 
 
-###7.命名路由以及编程式导航
-####A.命名路由：给路由取别名
+### 7.命名路由以及编程式导航
+#### A.命名路由：给路由取别名
 案例：
 
 var myRouter = new VueRouter({
@@ -379,7 +379,7 @@ var myRouter = new VueRouter({
 //还可以编程式导航
 myRouter.push( { name:'user' , params: {id:123} } )
 
-####B.编程式导航(★★★)
+#### B.编程式导航(★★★)
 页面导航的两种方式：
 A.声明式导航：通过点击链接的方式实现的导航
 B.编程式导航：调用js的api方法实现导航
@@ -394,7 +394,7 @@ this.$router.push({ path:"/login",query:{username:"jack"} });
 this.$router.go( n );//n为数字，参考history.go
 this.$router.go( -1 );
 
-###8.实现后台管理案例(★★★)
+### 8.实现后台管理案例(★★★)
 
 案例效果：
 
